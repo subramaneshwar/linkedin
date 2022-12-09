@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.na{
+    /* border: 5px solid blueviolet; */
+    height: 10%;
+    display: flex;
+    
+}
+.logo{
+    /* border: 5px solid; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:80px
+
+}
+.lis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lis:hover{
+    cursor: pointer;
+    font-size: larger;
+}
+.butt{
+    /* border: 5px solid; */
+    width: 30%;
+}
+.bottom{
+    /* border: 5px solid rebeccapurple; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.right{
+    /* border: 5px red solid; */
+    height: 100%;
+    width: 49%;
+
+}
+.left{
+    /* border: 5px red solid; */
+    height: 100%;
+    width: 50%;
+}
+.right{
+    padding-top: 5%;
+}
+.butt{
+    display: flex;
+    align-items: center;
+
+}
+.join{
+    border:none;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 20px;
+    height: 50px;
+    width: 80px;
+    border-radius: 25px;
+}
+.in{
+    border: #2867b2 solid;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: white;
+    /* color:  */
+}
+.in:hover , .join:hover{
+    background-color: #2867b2;
+}
+.vr{
+    border-left: 1px solid;
+    height:50px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-left: 8%;
+    padding-top: 5%;
+}
+h1{
+    font-weight: lighter;
+    font-size: 50px;
+    color: #946052;
+}
+.forms{
+    padding-top: 40px;
+}
+label{
+    display: block;
+    padding-top: 10px;
+}
+label input{
+    width: 70%;
+    height: 50px;
+    padding-left: 10px;
+}
+label p{
+    padding-top: 20px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #2867b2;
+}
+.buts{
+    margin-top: 10px;
+    border: none;
+    width: 70%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #2867b2;
+}
+.buts:hover{
+    cursor: pointer;
+    background-color:#4774aa
+
+}
+.line p{
+
+    padding-top: 5%;
+    display: flex;
+    font-size: 15px;
+} 
+.line p:before, .line p:after{
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+
+    text-decoration: line-through;
+    margin: auto 10px;
+}
+.signin{
+   padding: 40px 70px;
+}
+a:hover{
+    color: purple;
+}
+
+
